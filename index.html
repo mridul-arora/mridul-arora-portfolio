@@ -1,18 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my-portfolio</title>
-</head>
-<body>
-    Hi, I'm Mridul Arora!<br>
-    
-    <h1>My projects..</h1>
-    <ol>
-        <li>MarkOne - <a href="https://github.com/mridul-arora/neogcamp-mark1/blob/main/index.js">sourceCode</a> & <a href="https://replit.com/@aroramridul18/markOne?embed=true">playLive</a></li>
-        <li>MarkTwo - <a href="https://github.com/mridul-arora/neogcamp-mark2/blob/main/index.js">sourceCode</a> & <a href="https://replit.com/@aroramridul18/markTwo?embed=true">playLive</a></li>
-    </ol>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navigation container">      
+      <div class="nav-brand"><a href="/">catsnchaos</a></div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/projects.html">projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/blogs.html">blogs</a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="hero">
+      <img class="hero-img" src="images/hero.svg" />
+      <h1 class="hero-heading">
+        Mridul Arora the <span class="heading-inverted"> Web Developer</span>
+      </h1>
+    </header>
+
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>Technologies</h1>
+        <p>
+          I'm familiar with HTML5, CSS3, Git, JavaScript, Java 8, BitBucket, Bamboo, MongoDB, Postman, Spring Boot, Groovy, JUnit, qTest, Splunk, Microservices and Kubernetes. 
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container container-center">
+        <h1>Projects</h1>
+        <p>
+          I like to showcase my work and thus, you can see my projects hosted online
+        </p>
+        <a class="link link-primary" href="/projects.html">See Projects</a>
+      </div>
+    </section>
+
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>Blogs</h1>
+        <p>
+          I am also working on some technical and non techincal blogs. I like to
+          document my journey of learning.
+        </p>
+        <a class="link link-secondary" href="/blogs.html">Read Blogs</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-header">social media</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/mridul-arora/"> github </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/mridultwt"> twitter </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://www.linkedin.com/in/mridul-arora">
+            linkedin
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
